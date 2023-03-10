@@ -46,13 +46,11 @@ const Habit = ({habit}) => {
         </div>
       </div>
       <div className="habit-right">
-      <div className="log-btn" onClick={setId} >
-        Week View
-      </div>
-        {/* <div className="log-btn" onClick={setId} >
+        
+        <div className="log-btn" onClick={setId} >
           <i className="fa-solid fa-calendar-week" ></i>
           Week View
-        </div> */}
+        </div>
         <i className="fa-solid fa-trash" onClick={handleDelete}></i>
       </div>
     </div>

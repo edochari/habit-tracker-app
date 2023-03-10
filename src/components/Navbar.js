@@ -33,24 +33,22 @@ const Navbar = ({ name }) => {
         </div>
       </div>
       <Modal show={isOpen}>
-      <Modal.Header closeButton>
+        <Modal.Header>
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-        <form onSubmit={handleAddHabitClick}>
-            <label>Enter Habit</label>
-            <input id="habitName" type="text" onChange={(e)=>{setHabit(e.target.value)}} />
-          
-            <Button variant="primary" type="submit">
-            Save Habit
-            </Button>
+            <form onSubmit={handleAddHabitClick}>
+              <label>Enter Habit</label>
+              <input id="habitName" type="text" onChange={(e)=>{setHabit(e.target.value)}} />
+              <Button variant="primary" type="submit">
+                Save Habit
+              </Button>
             </form>
-             </Modal.Body>
+        </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={()=>setIsOpen(false)} >
             Close
           </Button>
-          
         </Modal.Footer>
        
       </Modal>
