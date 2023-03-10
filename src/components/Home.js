@@ -5,7 +5,7 @@ import Navbar from './Navbar'
 const Home = () => {
   return (
     <>
-    <div className='heading'>z
+    <div className='heading'>
       My Habits
     </div>
       <Navbar name="Detail View"/>
