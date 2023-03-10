@@ -16,6 +16,7 @@ const DayView = ({day}) => {
 
   // function call after click done icon--------------
   const markToDone=()=>{
+    console.log("done");
     if(day.id>todayDay){
       alert("You cannot change your next days status")
       return;
@@ -27,6 +28,7 @@ const DayView = ({day}) => {
 
   // function call after click undone icon------------
   const markToUnDone=()=>{
+    console.log("undone");
     if(day.id>todayDay){
       alert("You cannot change your next days status")
       return;
@@ -38,6 +40,7 @@ const DayView = ({day}) => {
 
   // function call after click none icon--------------
   const markToNone=()=>{
+    console.log("none");
     if(day.id>todayDay){
       alert("You cannot change your next days status")
       return;

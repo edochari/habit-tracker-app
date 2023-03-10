@@ -10,11 +10,12 @@ const WeekView = () => {
   console.log("local",localStorage);
   // getting habit from habits state acording to local storage id and set it on habit
    let habit={}
-//   for(let i=0;i<habitsState.length;i++){
-//     if(habitsState[i].id===Number(localStorage.getItem("id"))){
-//       habit=habitsState[i];
-//     }
-//   }
+   console.log("habit state",habitsState);
+  for(let i=0;i<habitsState.length;i++){
+    if(habitsState[i].id===Number(localStorage.getItem("id"))){
+      habit=habitsState[i];
+    }
+  }
   
   return (
     <>

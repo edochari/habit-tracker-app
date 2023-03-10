@@ -118,7 +118,8 @@ body {
   border: none;
 }
 .log-btn:hover{
-  color: white;
+  color: gray;
+  border:2px solid black;
 }
 .log-btn i{
   margin-right: 5px;
