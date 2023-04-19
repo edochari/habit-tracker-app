@@ -1,4 +1,5 @@
-<img width="1440" alt="Screenshot 2023-04-19 at 11 49 18 AM" src="https://user-images.githubusercontent.com/120657291/232985014-ce0c8cb5-ace3-4736-85f8-654eada17367.png">
+<img width="1433" alt="Screenshot 2023-04-19 at 12 00 23 PM" src="https://user-images.githubusercontent.com/120657291/232986196-4367e8b4-adbe-4701-844b-beab7e78be22.png">
+
 
 
 #App Functionalities
