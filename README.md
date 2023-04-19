@@ -1,7 +1,3 @@
-<img width="1433" alt="Screenshot 2023-04-19 at 12 00 23 PM" src="https://user-images.githubusercontent.com/120657291/232986196-4367e8b4-adbe-4701-844b-beab7e78be22.png">
-
-
-
 #App Functionalities
 
 1 - We can add and delete our daily habits.
