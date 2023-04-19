@@ -22,6 +22,14 @@ const Navbar = ({ name }) => {
 
   return (
     <>
+    
+      <div className='heading'>
+        Habits
+
+      </div>
+      <div className='text'>
+        Lets Make our life easier
+      </div>
       <div className="navbar">
         <Button className="add-habit-btn btn" onClick={() => { setIsOpen(true) }}>
           Add Habit
@@ -36,7 +44,7 @@ const Navbar = ({ name }) => {
           <form onSubmit={handleAddHabitClick}>
             <label>Enter Habit</label>
             <input id="habitName" type="text" onChange={(e) => { setHabit(e.target.value) }} />
-            <Button variant="primary"  type="submit" >
+            <Button variant="primary" type="submit" >
               Save Habit
             </Button>
           </form>
