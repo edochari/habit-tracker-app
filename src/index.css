@@ -1,7 +1,7 @@
 *{
   margin: 0%;
   padding: 0%;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 a{
   text-decoration: none;
@@ -20,17 +20,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #171717;
   color: white;
-  background-image:url('https://thumbs.dreamstime.com/b/top-view-flat-lay-habit-tracker-book-white-vintage-alarm-clock-succulent-plant-pot-blue-background-copy-space-246029233.jpg') ;
+  
+  background-image:url('https://hive.com/wp-content/uploads/2022/01/Blog_1.5.21_GoalTrackingApps.png') ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .heading{
-  padding-left: 400px;
-  padding-right: 350px;
-  font-size: xx-large;
-  color:orange
+  padding-left: 45%;
+  margin-top: 3rem;
+  font-size: xxx-large;
+  color:greenyellow;
+}
+
+.text{
+  margin-left: 40%;
+  font-size: x-large;
+  color: green;
 }
 
 /* style root div */
@@ -41,30 +48,23 @@ body {
 
 /* style navbar component ---------------------------------*/
 .navbar{
-  align-items: center;
+ 
   display: flex;
-  height: 100px;
-  padding: 0px 20px;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   
 }
-.right-nav{
-  display: flex;
-  align-items: center;
+
+.btn{
+  background-color: #323232;
+  opacity: 0.7;
 }
-.right-nav h5{
-  color: orangered;
-  font-size: x-large;
-  padding-left: 350px;
-  padding-right: 350px;
+.add-habit-btn{
+  margin-left: 5%;
+  
+  width:6rem;
 }
-.addhabit-btn{
-  cursor: pointer;
-  color: white;
-  background-color:gray;
-  padding: 8px 20px;
-  border-radius: 7px;
-}
+
 /* modal */
 .modal-content{
   background-color: yellowgreen;

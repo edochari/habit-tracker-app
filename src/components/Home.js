@@ -6,7 +6,11 @@ const Home = () => {
   return (
     <>
     <div className='heading'>
-      My Habits
+      Habits
+      
+    </div>
+    <div className='text'>
+      Lets Make our life easier
     </div>
       <Navbar name="Detail View"/>
       <Habits/>
