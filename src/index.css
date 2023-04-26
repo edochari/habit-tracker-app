@@ -1,12 +1,15 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: content-box;
 }
-a{
+
+a {
   text-decoration: none;
   color: white;
-}a:hover{
+}
+
+a:hover {
   color: white;
 }
 
@@ -20,102 +23,112 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #171717;
   color: white;
-  
-  background-image:url('https://hive.com/wp-content/uploads/2022/01/Blog_1.5.21_GoalTrackingApps.png') ;
+
+  background-image: url('https://www.qminder.com/resources/img/blog/customer-service-habits.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.heading{
+.heading {
   padding-left: 45%;
   margin-top: 3rem;
   font-size: xxx-large;
-  color:greenyellow;
+  color: black;
 }
 
-.text{
-  margin-left: 40%;
-  font-size: x-large;
-  color: green;
-}
+
 
 /* style root div */
-#root{
+#root {
   width: 80%;
- 
+
 }
 
 /* style navbar component ---------------------------------*/
-.navbar{
- 
+.navbar {
+
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
 
-.btn{
+.btn {
   background-color: #323232;
   opacity: 0.7;
 }
-.add-habit-btn{
+
+.add-habit-btn {
   margin-left: 1%;
-  
-  width:6rem;
+
+  width: 6rem;
 }
 
 /* modal */
-.modal-content{
+.modal-content {
   background-color: yellowgreen;
 }
-.modal-header{
+
+.modal-header {
   border: none;
 }
-.modal-footer{
+
+.modal-footer {
   border: none;
 }
+
 /* ---------------------------------------------------- */
 
 /* habits components style------------------------------ */
-.habits{
+.habits {
   width: 100%;
 }
 
 /* habit under habits component */
-.habit{
+.habit {
   width: 100%;
   height: 100px;
- 
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 20px;
 }
-.habit:hover{
+
+.habit:hover {
   background-color: #323232;
 }
-.habit-left{
+
+.habit-left {
   display: flex;
   align-items: center;
 }
-.habit-left i{
+
+.habit-name{
+  color:darkred;
+}
+
+.habit-left i {
   color: #2AA8D0;
   padding: 10px;
   border-radius: 50%;
   background-color: #304950;
   margin-right: 10px;
 }
-.day-complete{
+
+.day-complete {
   color: #767475;
-  font-size:small;
+  font-size: small;
 }
-.habit-right{
+
+.habit-right {
   display: flex;
   align-items: center;
-  cursor:pointer;
+  cursor: pointer;
 }
-.log-btn{
+
+.log-btn {
   text-decoration: none;
   cursor: pointer;
   background-color: #424242;
@@ -126,29 +139,34 @@ body {
   border: none;
   z-index: 5;
 }
-.log-btn:hover{
+
+.log-btn:hover {
   color: gray;
-  border:2px solid black;
+  border: 2px solid black;
 }
-.log-btn i{
+
+.log-btn i {
   margin-right: 10px;
 }
-.fa-trash{
+
+.fa-trash {
   cursor: pointer;
   padding: 10px;
   border-radius: 7px;
   background-color: #424242;
 }
+
 /* ------------------------------------------------------*/
 
 /* style week view container --------------------------- */
-.days-container{
+.days-container {
   margin: 20px 0px;
   display: flex;
   justify-content: space-around;
 }
+
 /* style day view component */
-.day-container{
+.day-container {
   height: 100px;
   width: 150px;
   background-color: orange;
@@ -156,24 +174,26 @@ body {
   padding: 5px;
   position: relative;
 }
-p{
+
+p {
   margin: 0%;
 }
-.circle-icon{
+
+.circle-icon {
   font-size: 24px;
   margin: 5px 5px;
   cursor: pointer;
-  
-  
+
+
 }
 
-.active{
-  color: #0B5ED7 ;
-  
+.active {
+  color: #0B5ED7;
+
 }
 
-.cursor{
-  cursor:pointer;
-  position:relative;
+.cursor {
+  cursor: pointer;
+  position: relative;
   z-index: 10;
 }

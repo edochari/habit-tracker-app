@@ -15,6 +15,10 @@ const Navbar = ({ name }) => {
   // function for add habit 
   const handleAddHabitClick = (e) => {
     e.preventDefault();
+    if(habit === ""){
+      alert("please add something");
+      return ;
+    }
     dispatch(addHabit(habit));
     alert("Your habit added successfully");
     document.getElementById("habitName").value = "";
@@ -27,9 +31,7 @@ const Navbar = ({ name }) => {
         Habits
 
       </div>
-      <div className='text'>
-        Lets Make our life easier
-      </div>
+      
       <div className="navbar">
         <Button className="add-habit-btn btn" onClick={() => { setIsOpen(true) }}>
           Add Habit

@@ -41,7 +41,7 @@ const Habit = ({habit}) => {
       <div className="habit-left">
         <i className="fa-solid fa-hashtag"></i>
         <div>
-          <h4 style={{textTransform:"capitalize"}}>{habit.name}</h4>
+          <h4 className="habit-name">{habit.name}</h4>
           <p className="day-complete">{countDone}/{todayDay+1} days</p>
         </div>
       </div>
