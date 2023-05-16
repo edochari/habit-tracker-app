@@ -40,11 +40,11 @@ const Navbar = ({ name }) => {
       </div>
       <Modal show={isOpen}>
         <Modal.Header>
-          <Modal.Title>Adding Habit</Modal.Title>
+          <Modal.Title className="habitText">Adding Habit</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <form onSubmit={handleAddHabitClick}>
-            <label>Enter Habit</label>
+            <label className="habitText">Enter Habit</label>
             <input id="habitName" type="text" onChange={(e) => { setHabit(e.target.value) }} />
             <Button variant="primary" type="submit" >
               Save Habit

@@ -23,8 +23,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #171717;
   color: white;
-
-  background-image: url('https://www.qminder.com/resources/img/blog/customer-service-habits.png');
+  background-image: url('https://img.freepik.com/premium-photo/professional-male-runner-training-isolated-black-studio-background-mixed-light-man-sportsuit-practicing-run-jogging-healthy-lifestyle-sport-workout-motion-action-concept_489646-4409.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +33,7 @@ body {
   padding-left: 45%;
   margin-top: 3rem;
   font-size: xxx-large;
-  color: black;
+  color: whitesmoke;
 }
 
 
@@ -67,7 +66,7 @@ body {
 
 /* modal */
 .modal-content {
-  background-color: yellowgreen;
+  background-color: whitesmoke;
 }
 
 .modal-header {
@@ -78,18 +77,25 @@ body {
   border: none;
 }
 
+.habitText{
+  color:black;
+  margin-right: 0.4rem;
+}
+
 /* ---------------------------------------------------- */
 
 /* habits components style------------------------------ */
 .habits {
   width: 100%;
+  
+
 }
 
 /* habit under habits component */
 .habit {
   width: 100%;
   height: 100px;
-
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,7 +112,7 @@ body {
 }
 
 .habit-name{
-  color:darkred;
+  color:whitesmoke;
 }
 
 .habit-left i {
@@ -118,7 +124,7 @@ body {
 }
 
 .day-complete {
-  color: #767475;
+  color: whitesmoke;
   font-size: small;
 }
 
